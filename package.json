@@ -1,14 +1,24 @@
 {
-  "name": "zip-all-cli",
-  "version": "1.0.1",
-  "description": "",
+  "name": "zip-it-cli",
+  "version": "1.0.2",
+  "description": "A minimalistic cross-platform CLI tool allowing you to build zips from either single files or directories",
   "main": "index.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "homepage": "https://github.com/kamiljano/zip-all-cli#readme",
-  "keywords": ["zip", "dir", "file"],
+  "keywords": [
+    "zip",
+    "dir",
+    "file"
+  ],
   "author": "Kamil Janowski - kgjanowski@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^5.1.0",
     "cross-zip": "^3.0.0"
+  },
+  "bin": {
+    "zip-it-cli": "./index.js"
   }
 }
